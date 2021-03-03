@@ -384,7 +384,7 @@ function file_video(path) {
         hotkey: true,
         video: {
             url: url,
-            pic: '//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/background.png', //播放器載入時的背景圖片 
+            pic: 'https://raw.githubusercontent.com/moosetk/goindex/ANiopen/background.png', //播放器載入時的背景圖片 
             type: 'auto',
         },
     });
@@ -712,7 +712,7 @@ $(function () {
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
-    link.href = '//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/favicon.ico'; //網頁圖標
+    link.href = 'https://cdn.jsdelivr.net/gh/moosetk/goindex/ANiopen/favicon.ico'; //網頁圖標
     document.getElementsByTagName('head')[0].appendChild(link);
 
     render(path);
