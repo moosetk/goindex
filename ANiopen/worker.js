@@ -22,7 +22,7 @@ var html = `
   <meta name="theme-color" content ="#424242">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/RyanL-29/aniopen@1.3.3/app.min.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/aniopen/app.js"></script>
   <script>
   /*Share Copy */
     function copyURI(evt) {
