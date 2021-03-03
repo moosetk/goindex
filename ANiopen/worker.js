@@ -77,7 +77,7 @@ body {overflow: overlay;}
   </style>
 </head>
 <body>
-<!--<script src="https://cdn.jsdelivr.net/gh/RyanL-29/aniopen@1.3.2/index.js"></script> 這個是PWA (把網頁變成手機程式的概念) 需要另外設定 -->
+<!--<script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/index.js"></script> 這個是PWA (把網頁變成手機程式的概念) 需要另外設定 -->
 </body>
 </html>
 `;
