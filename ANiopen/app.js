@@ -384,7 +384,7 @@ function file_video(path) {
         hotkey: true,
         video: {
             url: url,
-            pic: 'https://raw.githubusercontent.com/RyanL-29/aniopen/master/background.png', //播放器載入時的背景圖片 
+            pic: '//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/background.png', //播放器載入時的背景圖片 
             type: 'auto',
         },
     });
