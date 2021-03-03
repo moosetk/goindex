@@ -22,7 +22,7 @@ var html = `
   <meta name="theme-color" content ="#424242">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/moosetk/goindex@${authConfig.version}/ANiopen/app.js"></script>
   <script>
   /*Share Copy */
     function copyURI(evt) {
@@ -77,7 +77,7 @@ body {overflow: overlay;}
   </style>
 </head>
 <body>
-<!--<script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/moosetk/goindex@${authConfig.version}/ANiopen/index.js"></script> 這個是PWA (把網頁變成手機程式的概念) 需要另外設定 -->
+<!--<script src="https://cdn.jsdelivr.net/gh/moosetk/goindex@${authConfig.version}/ANiopen/index.js"></script> 這個是PWA (把網頁變成手機程式的概念) 需要另外設定 -->
 </body>
 </html>
 `;
